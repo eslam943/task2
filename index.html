@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+   <body>
     <nav>
       <div style="display: flex; align-items: center">
         <img
@@ -64,27 +63,228 @@
       </div>
       <div class="container">
         <div class="card">
-          <h2>Sales Performance</h2>
-          <p>Total Sales: $5,000</p>
-          <p>Growth: 10%</p>
+          <div style="display: flex; justify-content: space-between">
+            <h2>Sales Performance</h2>
+            <select
+              id="options"
+              name="options"
+              style="
+                width: 200px;
+                border: none;
+                border-radius: 30px;
+                padding: 5px;
+                background-color: #ffffff;
+                font-size: large;
+                box-shadow: 5px 5px 0 rgba(159, 114, 255, 0.71);
+                select:hover {
+                  background-color: #f0f0f0;
+                  cursor: pointer;
+                  box-shadow: 5px 15px 0 rgba(88, 62, 204, 0.2);
+                }
+              ">
+              <option value="view">View Detailed Report</option>
+              <option value="export">Export Data</option>
+            </select>
+          </div>
+
+          <div
+            style="
+              background-color: rgb(255, 255, 255);
+              width: 100%;
+              height: 250px;
+              margin: 10px;
+              border-radius: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="50px"
+              viewBox="0 -960 960 960"
+              width="50px">
+              <path
+                d="M80-120v-80h800v80H80Zm40-120v-280h120v280H120Zm200 0v-480h120v480H320Zm200 0v-360h120v360H520Zm200 0v-600h120v600H720Z" />
+            </svg>
+          </div>
         </div>
 
         <div class="card">
           <h2>Revenue Overview</h2>
-          <p>Total Revenue: $20,000</p>
-          <p>Growth: 5%</p>
+          <div style=" background-color: rgb(255, 255, 255);
+              width: 100%;
+              height: 250px;
+              margin: 10px;
+              border-radius: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#"><path d="M711-480Zm209 80H737q-3-21-9.5-41T711-480h126q-4-7-9-12t-12-9q-26-15-59.5-22t-76.5-7h-3q-20-23-43.5-40T582-599q23-5 47.5-8t50.5-3q53 0 99 11t86 32q26 14 40.5 41.5T920-463v63ZM680-640q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0-40ZM249-480ZM40-400v-63q0-35 14.5-62.5T95-567q40-21 86-32t99-11q26 0 50.5 3t47.5 8q-28 12-51.5 29T283-530h-3q-43 0-76.5 7T144-501q-7 4-12 9t-9 12h126q-10 19-16.5 39t-9.5 41H40Zm240-240q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T320-760q0-17-11.5-28.5T280-800q-17 0-28.5 11.5T240-760q0 17 11.5 28.5T280-720Zm0-40Zm200 480q-33 0-56.5-23.5T400-360v-120q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480v120q0 33-23.5 56.5T480-280ZM450-80v-82q-72-11-121-67t-49-131h60q0 58 41 99t99 41q58 0 99-41t41-99h60q0 75-49 131t-121 67v82h-60Z"/></svg>
+          </div>
         </div>
 
         <div class="card">
-          <h2>Recent Activity</h2>
-          <p>New Users: 50</p>
-          <p>Active Users: 200</p>
+          <div style="display: flex; justify-content: space-between">
+            <h2>Recent Activity</h2>
+           <select
+            id="options"
+            name="options"
+            style="
+              width: 200px;
+              border: none;
+              border-radius: 30px;
+              padding: 5px;
+              background-color: #ffffff;
+              font-size: large;
+              box-shadow: 5px 5px 0 rgba(159, 114, 255, 0.71);
+              select:hover {
+                background-color: #f0f0f0;
+                cursor: pointer;
+                box-shadow: 5px 15px 0 rgba(88, 62, 204, 0.2);
+              }
+            ">
+            <option value="view">new</option>
+            <option value="export">terndy</option>
+          </select>
+          </div>
+          <div style="width: 100%;height:81%;   background-color: rgb(96, 173, 116); margin-top: 20px; border-radius: 20px;padding:10px 5px 5px 10px;">
+            <div style="
+              font-size: xx-large;
+              border-bottom: 2px solid rgb(236, 228, 228);
+             
+              "><h4>
+              eslam mohamed
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vol
+            </p>
+          </div>
+          <div style="
+          font-size: xx-large;
+          border-bottom: 2px solid gainsboro;
+          "><h4>
+              eslam mohamed
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vol
+            </p>
+          </div>
+            <div style="
+            font-size: xx-large;
+            border-bottom: 2px solid gainsboro;
+            "><h4>
+              eslam mohamed
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vol
+            </p>
+          </div>
+            
+            
+          </div>
         </div>
 
         <div class="card">
           <h2>Customer Analytics</h2>
-          <p>New Customers: 30</p>
-          <p>Returning Customers: 70</p>
+         
+          <table
+            style="width: 100%; margin-top: 15px; border-collapse: collapse">
+            <thead>
+              <tr>
+                <th
+                  style="
+                    text-align: left;
+                    padding: 8px;
+                    border-bottom: 1px solid #ddd;
+                  ">
+                  Customer ID
+                </th>
+                <th
+                  style="
+                    text-align: left;
+                    padding: 8px;
+                    border-bottom: 1px solid #ddd;
+                  ">
+                  Name
+                </th>
+                <th
+                  style="
+                    text-align: left;
+                    padding: 8px;
+                    border-bottom: 1px solid #ddd;
+                  ">
+                  Amount
+                </th>
+                <th
+                  style="
+                    text-align: left;
+                    padding: 8px;
+                    border-bottom: 1px solid #ddd;
+                  ">
+                  Status
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  C001
+                </td>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  Alice Smith
+                </td>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  $1200
+                </td>
+                <td
+                  style="
+                    padding: 8px;
+                    border-bottom: 1px solid #f0f0f0;
+                    color: rgb(54, 220, 115);
+                  ">
+                  Active
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  C002
+                </td>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  Bob Johnson
+                </td>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  $950
+                </td>
+                <td
+                  style="
+                    padding: 8px;
+                    border-bottom: 1px solid #f0f0f0;
+                    color: rgb(183, 36, 36);
+                  ">
+                  Inactive
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  C003
+                </td>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  Carol Lee
+                </td>
+                <td style="padding: 8px; border-bottom: 1px solid #f0f0f0">
+                  $700
+                </td>
+                <td
+                  style="
+                    padding: 8px;
+                    border-bottom: 1px solid #f0f0f0;
+                    color: rgb(73, 225, 109);
+                  ">
+                  Active
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </main>
@@ -92,4 +292,12 @@
       <p>&copy; 2024 Enterprise Dashboard. All rights reserved.</p>
     </footer>
   </body>
+  <!-- <script>
+    let n = prompt("Enter your name:");
+    function hello(n) {
+      return "Hello, " + n + "!";
+    }
+    alert(hello(n));
+
+  </script> -->
 </html>
